@@ -1,0 +1,392 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="YafHead"><meta id="YafMetaScriptingLanguage" http-equiv="Content-Script-Type" name="scriptlanguage" content="text/javascript" /><meta id="YafMetaStyles" http-equiv="Content-Style-Type" name="styles" content="text/css" /><meta id="YafMetaDescription" name="description" content="Yet Another Forum.NET -- A bulletin board system written in ASP.NET" /><meta id="YafMetaKeywords" name="keywords" content="Yet Another Forum.net, Forum, ASP.NET, BB, Bulletin Board, opensource" /><meta name="HandheldFriendly" content="true" /><meta name="viewport" content="width=device-width,user-scalable=yes" /><link rel="shortcut icon" href="favicon.ico" /><title>
+	Trả lời
+</title><link href="/Content/forum.css" rel="stylesheet" type="text/css" /><link href="/Themes/Yafmobile/theme.css" rel="stylesheet" type="text/css" /><link href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.4.min.js"></script><link href="http://bancadoithuong.net/rsstopic/ft0-latestposts-rss?pg=0" rel="alternate" type="application/rss+xml" title="Rss Feed - Diễn Đàn Bắn cá đổi thưởng" /><link href="http://bancadoithuong.net/rsstopic/ft1-latestposts-atom?pg=0" rel="alternate" type="application/atom+xml" title="Atom Feed - Diễn Đàn Bắn cá đổi thưởng" /><script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.ui/1.11.4/jquery-ui.min.js"></script><style type="text/css">.HiddenGuestBox{padding:0.7em;}.HiddenGuestBoxImage img{float:left;padding:0 0 3px 3px;}.HiddenGuestBox br{clear:both}.HiddenGuestBox{padding:0.7em;}.HiddenGuestBoxImage img{float:left;padding:0 0 3px 3px;}.HiddenGuestBox br{clear:both}.HiddenGuestBox{padding:0.7em;}.HiddenGuestBoxImage img{float:left;padding:0 0 3px 3px;}.HiddenGuestBox br{clear:both}.HiddenGuestBox{padding:0.7em;}.HiddenGuestBoxImage{float:left;margin-right:.3em;}.HiddenGuestBox{padding:0.7em;}.HiddenGuestBoxImage img{float:left;padding:0 0 3px 3px;}.HiddenGuestBox br{clear:both}.spoilerbox
+{margin:5px;padding:4px;background-color:#eeeeee;border:solid 1px#808080;color:#000000;}.HiddenGuestBox{padding:0.7em;}.HiddenGuestBoxImage img{float:left;padding:0 0 3px 3px;}.HiddenGuestBox br{clear:both}.yafnet.userLinkContainer
+{background:url(Content/icons/user.png)#fff no-repeat 4px 50%;border:1px solid#eee;padding:4px 2px 4px 25px;margin:3px;font-size:80%;font-weight:bold;background-color:#fff;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}.yafnet.userLinkContainer:hover
+{border:1px solid#ddd;background-color:#eee;}</style></head>
+<body id="YafBody" style="margin: 0; padding: 0">
+    <a id="BannerLink" title="Shows the Forum Mainpage." href="/"><img src="forumlogo.png" id="imgBanner" alt="logo" style="border: 0; height: 150px; width: 307px; padding: 10px 0px 10px 20px;" class="hidden-mobile" />
+		<div class="banner hidden-desktop">
+		    <img src="/themes/Yafmobile/logo.png" id="imgBanner1" alt="logo" style="border: 0;" />
+		</div>
+    </a>
+
+    <form method="post" action="./postmessage?g=postmessage&amp;t=2629&amp;f=2&amp;q=3501" id="form1" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="http://ajax.aspnetcdn.com/ajax/4.6/1/WebForms.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+window.WebForm_PostBackOptions||document.write('<script type="text/javascript" src="/WebResource.axd?d=w8h3TMpHXUY6U_pVrLPWF1GmWgO8ziHYs8hD8LKYl-qPu5wPi9YH923eKuY0wyNpv30kRIBKScNYov9iFkGbdeZz4M41&amp;t=635875761181218729"><\/script>');//]]>
+</script>
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+jQuery(document).ready(function(){jQuery('.ceebox').ceebox({titles:true});});
+function ShowPopupDialogNotificationforum_YafForumPageErrorPopup1(newErrorStr,newErrorType){if(newErrorStr!=null&&newErrorStr!=""){showNotification({type:newErrorType,message:newErrorStr,autoClose:true,duration:30,imagepath:'/Content/icons/'});}}//]]>
+</script>
+
+<script src="/Scripts/jquery.ForumExtensions.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+function insertsmiley(code){forum_ctl03_YafTextEditor.InsertSmiley(code);}//]]>
+</script>
+
+<script src="/Scripts/yafEditor/yafEditor.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+var forum_ctl03_YafTextEditor=new yafEditor('forum_ctl03_YafTextEditor');function setStyle(style,option){forum_ctl03_YafTextEditor.FormatText(style,option);}
+function insertAttachment(id,url){forum_ctl03_YafTextEditor.FormatText('attach',id);}
+function toggleSpoiler(btn,elid)
+{var el=document.getElementById(elid);if(el==null)
+return;if(el.style.display=='')
+{el.style.display='none';btn.value='Show Spoiler';}
+else
+{el.style.display='';btn.value='Hide Spoiler';}}!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.async=true;js.src='//platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');
+function yaf_SmartScroller_GetCoords()
+{var scrollX,scrollY;if(document.all)
+{if(!document.documentElement.scrollLeft)
+scrollX=document.body.scrollLeft;else
+scrollX=document.documentElement.scrollLeft;if(!document.documentElement.scrollTop)
+scrollY=document.body.scrollTop;else
+scrollY=document.documentElement.scrollTop;}
+else
+{scrollX=window.pageXOffset;scrollY=window.pageYOffset;}
+jQuery('#forum_ctl03_scrollLeft').val(scrollX);jQuery('#forum_ctl03_scrollTop').val(scrollY);}
+function yaf_SmartScroller_Scroll()
+{var x=jQuery('#forum_ctl03_scrollLeft').val();var y=jQuery('#forum_ctl03_scrollTop').val();if(x||y)window.scrollTo(x,y);}
+function yaf_SmartScroller_Reset()
+{jQuery('#forum_ctl03_scrollLeft').val(0);jQuery('#forum_ctl03_scrollTop').val(0);window.scrollTo(0,0);}
+jQuery(window).bind('scroll',yaf_SmartScroller_GetCoords);jQuery(window).bind('click',yaf_SmartScroller_GetCoords);jQuery(window).bind('keypress',yaf_SmartScroller_GetCoords);jQuery(document).ready(yaf_SmartScroller_Scroll);//]]>
+</script>
+
+<script src="http://ajax.aspnetcdn.com/ajax/4.6/1/MicrosoftAjax.debug.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+(window.Sys && Sys._Application && Sys.Observer)||document.write('<script type="text/javascript" src="/ScriptResource.axd?d=tn2kS9AWtEphEpz_eRXN3E76Z4wheXE-GB0S5w1Hg30mAKfk673jYhs1NdLKSb6XDa5hPELJb54ff2Qh3c8IPxqZAIbkkJ4ObQq4RUhCkZscpN-picGDkY7AqopxF4nPdY0Mie1DINx2i-aLzzlEhaLAWEKQfdzCtNBPRIUwBygclc0u0&t=ffffffffeea0dba9"><\/script>');//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="http://ajax.aspnetcdn.com/ajax/4.6/1/MicrosoftAjaxWebForms.debug.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+(window.Sys && Sys.WebForms)||document.write('<script type="text/javascript" src="/ScriptResource.axd?d=at4PfyQxyBmGjj0ttQrJWMXGHIXgPH-Kcha3v2GmAvaXKCsR3PJ-Gd0y2mgf5dQU7r4TbIpmh9ShfygFgyaG-qfKwupADDoVYw-xNXtGHGURphvGMiKSTqrUVPf9CZazQN1dIH_uwEeDo6Sqthk0gtYa-Qs67oRA-_7ReADhGIJ5XMAv0&t=ffffffffeea0dba9"><\/script>');//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+</div>
+    
+<div class="yafnet" id="forum"><div id="yafpage_YAF.Pages.postmessage" class="YAF_Pages_postmessage">
+<div id="yafheader">
+
+    
+
+    <div class="menu-mobile">
+        <div class="outerMenuContainer">
+            <div id="forum_ctl01_UserContainer" class="menuMyContainer">
+	
+                <ul class="menuMyList">
+                    <li class="menuMy myProfile">
+                        <a id="forum_ctl01_MyProfile" title="Shows the User Control Panel." href="/cp_profile" target="_top">Trang cá nhân</a>
+                    </li>
+                    <li class="menuMy myPm"><a title="Shows Private Messages Inbox." href="/cp_pm" target="_top">My Inbox</a></li>
+                    
+                    <li class="menuMy myAlbums"><a title="Shows the Albums Page which shows all your albums." href="/albums?u=97399" target="_top">My Albums</a></li>
+                    <li class="menuMy myTopics"><a title="Chủ đề của tôi" href="/mytopics" target="_top">Chủ đề của tôi</a></li>
+                    
+                </ul>
+            
+</div>
+            <div id="forum_ctl01_LoggedInUserPanel" class="loggedInUser">
+	
+            <span>Đăng nhập dưới tên: &nbsp;</span><a href="/profile/97399-kencon65" title="View profile" rel="nofollow" id="forum_ctl01_UserLoggedIn" class="currentUser">kencon65</a>
+</div>
+            <div class="menuContainer">
+                <ul class="menuList">
+                    <li class="menuGeneral"><a title="Shows the Forum Mainpage." href="/" target="_top">Diễn đàn</a></li><li class="menuGeneral"><a title="Use the Forum Search." href="/search" target="_top">Tìm kiếm</a></li><li class="menuGeneral"><a title="Opens the Member list page." href="/members" target="_top">Thành viên</a></li><li class="menuGeneral"><a title="Shows the Help Pages." href="/help_index" target="_top">Trợ giúp</a></li>
+                </ul>
+                
+                
+            </div>
+        </div>
+    </div>
+    <div id="yafheaderEnd">
+    </div>
+    
+
+</div>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('forum$YafScriptManager', 'form1', [], [], [], 90, '');
+//]]>
+</script>
+<div id="forum_YafForumPageErrorPopup1" Class="MessageBox">
+<div class="modalHeader"><h3>Thông báo</h3></div><div style="float:left"><img src="/Content/icons/InfoBig.png" alt="Icon" height="64" width="64" Class="DialogIcon" Style="padding:5px" /></div><div id="forum_YafPopupErrorMessageOuter" class="modalOuter"><span id="forum_YafPopupErrorMessageInner" class="modalInner">Error</span></div><hr /><div id="forum_YafModalFooter" Class="modalFooter"><a id="forum_1d414268-35d1-4815-be20-35378134984a" class="StandardButton" onclick="jQuery(this).YafModalDialog.Close({ Dialog: &#39;#forum_YafForumPageErrorPopup1&#39; });" href="#">OK</a></div></div><div id="forum_ctl02_YafForumPageErrorPopup" class="MessageBox" style="display:none">
+	
+    <div class="modalHeader">
+        <h3><span id="forum_ctl02_Header"></span></h3>
+    </div>
+    <div id="YafPopupErrorMessageOuter" class="modalOuter">
+        <div style="float:left;">
+            
+        </div>
+        <div id="YafPopupErrorMessageInner" class="modalInner">
+            
+        </div>
+    </div>
+    <div class="clear"></div>
+    <hr />
+    <div class="modalFooter">
+        <input type="submit" name="forum$ctl02$OkButton" value="Ok" id="forum_ctl02_OkButton" class="StandardButtton" />
+        
+    </div>
+
+</div><div id="forum_ctl03_PageLinks" class="yafPageLink breadcrumb">
+<a href="/">Diễn Đàn Bắn cá đổi thưởng</a>
+<span class="linkSeperator divider">&nbsp;&#187;&nbsp;</span>
+<a href="/category/1-Ban-ca-doi-thuong">Bắn cá đổi thưởng</a>
+<span class="linkSeperator divider">&nbsp;&#187;&nbsp;</span>
+<a href="/topics/2-TIN-TUC">TIN TỨC</a>
+<span class="linkSeperator divider">&nbsp;&#187;&nbsp;</span>
+<a href="/posts/t2629-Bai-viet-lien-ket">Bai viet lien ket</a>
+<span class="linkSeperator divider">&nbsp;&#187;&nbsp;</span>
+<span class="currentPageLink active">Trả lời</span>
+</div>
+
+
+<table align="center" cellpadding="4" cellspacing="1" class="content" width="100%">
+    <tr>
+        <td align="center" class="header1" colspan="2">
+            <span id="forum_ctl03_Title">Trả lời</span>
+        </td>
+    </tr>
+    
+    
+    
+    
+    
+    	
+    
+    
+    <tr>
+        <td id="forum_ctl03_EditorLine" class="post" width="80%" colspan="2">
+            <b>
+                Nội dung:
+            </b>
+            <br />
+            
+            <!-- editor goes here -->
+        <table border="0" id="bbcodeFeatures">
+<tr><td>
+<img id="forum_ctl03_YafTextEditor_bold" onload="Button_Load(this)" src="/Scripts/yafEditor/bold.gif" width="21" height="20" alt="Đậm" title="Đậm" onclick="setStyle('bold','')" />
+<img id="forum_ctl03_YafTextEditor_italic" onload="Button_Load(this)" src="/Scripts/yafEditor/italic.gif" width="21" height="20" alt="Nghiêng" title="Nghiêng" onclick="setStyle('italic','')" />
+<img id="forum_ctl03_YafTextEditor_underline" onload="Button_Load(this)" src="/Scripts/yafEditor/underline.gif" width="21" height="20" alt="Gạch chân" title="Gạch chân" onclick="setStyle('underline','')" />
+&nbsp;
+<img id="forum_ctl03_YafTextEditor_highlight" onload="Button_Load(this)" src="/Scripts/yafEditor/highlight.gif" width="21" height="20" alt="Highlight" title="Highlight" onclick="setStyle('highlight','')" />
+<img id="forum_ctl03_YafTextEditor_quote" onload="Button_Load(this)" src="/Scripts/yafEditor/quote.gif" width="21" height="20" alt="Trích dẫn" title="Trích dẫn" onclick="setStyle('quote','')" />
+<img src="/Scripts/yafEditor/code.gif" id="forum_ctl03_ctl10_bbcode_popMenu" alt="Choose Language for Syntax Highlighting" title="Choose Language for Syntax Highlighting" onclick="yaf_popit('forum_ctl03_ctl12')" onload="Button_Load(this)" onmouseover="yaf_mouseover('forum_ctl03_ctl12')" />
+<img id="forum_ctl03_YafTextEditor_img" onload="Button_Load(this)" src="/Scripts/yafEditor/image.gif" width="21" height="20" alt="Chèn ảnh" title="Chèn ảnh" onclick="setStyle('img','')" />
+<img id="forum_ctl03_YafTextEditor_createlink" onload="Button_Load(this)" src="/Scripts/yafEditor/link.gif" width="21" height="20" alt="Tạo liên kết" title="Tạo liên kết" onclick="setStyle('createlink','')" />
+&nbsp;
+<img id="forum_ctl03_YafTextEditor_unorderedlist" onload="Button_Load(this)" src="/Scripts/yafEditor/unorderedlist.gif" width="21" height="20" alt="Unordered List" title="Unordered List" onclick="setStyle('unorderedlist','')" />
+<img id="forum_ctl03_YafTextEditor_orderedlist" onload="Button_Load(this)" src="/Scripts/yafEditor/orderedlist.gif" width="21" height="20" alt="Ordered List" title="Ordered List" onclick="setStyle('orderedlist','')" />
+&nbsp;
+<img id="forum_ctl03_YafTextEditor_justifyleft" onload="Button_Load(this)" src="/Scripts/yafEditor/justifyleft.gif" width="21" height="20" alt="Canh lề trái" title="Canh lề trái" onclick="setStyle('justifyleft','')" />
+<img id="forum_ctl03_YafTextEditor_justifycenter" onload="Button_Load(this)" src="/Scripts/yafEditor/justifycenter.gif" width="21" height="20" alt="Canh giữa" title="Canh giữa" onclick="setStyle('justifycenter','')" />
+<img id="forum_ctl03_YafTextEditor_justifyright" onload="Button_Load(this)" src="/Scripts/yafEditor/justifyright.gif" width="21" height="20" alt="Canh lề phải" title="Canh lề phải" onclick="setStyle('justifyright','')" />
+&nbsp;
+<img id="forum_ctl03_YafTextEditor_outdent" onload="Button_Load(this)" src="/Scripts/yafEditor/outdent.gif" width="21" height="20" alt="Outdent" title="Outdent" onclick="setStyle('outdent','')" />
+<img id="forum_ctl03_YafTextEditor_indent" onload="Button_Load(this)" src="/Scripts/yafEditor/indent.gif" width="21" height="20" alt="Indent" title="Indent" onclick="setStyle('indent','')" />
+&nbsp;
+<img src="/Scripts/yafEditor/bbcode.gif" id="forum_ctl03_ctl10_bbcustom_popMenu" alt="Thêm BBCode Tags" title="Thêm BBCode Tags" onclick="yaf_popit('forum_ctl03_ctl11')" onload="Button_Load(this)" onmouseover="yaf_mouseover('forum_ctl03_ctl11')" />
+	</td></tr>
+	<tr><td>
+Màu chữ:
+<select onchange="if(this.value!='') setStyle('color',this.value); this.value=''">
+<option value="">Default</option>
+<option style="color:darkred" value="darkred">Dark Red</option>
+<option style="color:red" value="red">Red</option>
+<option style="color:orange" value="orange">Orange</option>
+<option style="color:brown" value="brown">Brown</option>
+<option style="color:yellow" value="yellow">Yellow</option>
+<option style="color:green" value="green">Green</option>
+<option style="color:olive" value="olive">Olive</option>
+<option style="color:cyan" value="cyan">Cyan</option>
+<option style="color:blue" value="blue">Blue</option>
+<option style="color:darkblue" value="darkblue">Dark Blue</option>
+<option style="color:indigo" value="indigo">Indigo</option>
+<option style="color:violet" value="violet">Violet</option>
+<option style="color:white" value="white">White</option>
+<option style="color:black" value="black">Black</option>
+</select>
+Cỡ chữ:
+<select onchange="if(this.value!='') setStyle('fontsize',this.value); this.value=''">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option selected="selected" value="5">Default</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+</select>
+</td></tr>
+</table>
+<textarea name="forum$ctl03$YafTextEditor" id="forum_ctl03_YafTextEditor" rows="15" cols="100" class="BBCodeEditor">[quote=kencon56;3501]http://forum.bancadoithuong.net/profile/93327-kencon56[/quote]
+
+</textarea><div class="yafpopupmenu" id="forum_ctl03_ctl11" style="position:absolute;z-index:100;left:0;top:0;display:none;"><ul><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('YOUTUBE','')" style="white-space:nowrap" title="[YOUTUBE]Put YouTube URL in Here[/YOUTUBE]">[YOUTUBE]Put YouTube URL in Here[/YOUTUBE]</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('VIMEO','')" style="white-space:nowrap" title="[VIMEO]http://www.vimeo.com/xxxxxxx[/VIMEO]">[VIMEO]http://www.vimeo.com/xxxxxxx[/VIMEO]</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('HIDE-THANKS','')" style="white-space:nowrap" title="[HIDE-THANKS=x]The tag hides content from people who have below then X thanks received.[/HIDE-THANKS]">[HIDE-THANKS=x]The tag hides content from people who have below then X thanks received.[/HIDE-THANKS]</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('HIDE-REPLY-THANKS','')" style="white-space:nowrap" title="[HIDE-REPLY-THANKS]The tag hides content from people until they either reply in the same thread or press the thank you button for the post.[/HIDE-REPLY-THANKS]">[HIDE-REPLY-THANKS]The tag hides content from people until they either reply in the same thread or press the thank you button for the post.[/HIDE-REPLY-THANKS]</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('HIDE-REPLY','')" style="white-space:nowrap" title="[HIDE-REPLY]The tag hides content from people until they replied in the same thread.[/HIDE-REPLY]">[HIDE-REPLY]The tag hides content from people until they replied in the same thread.[/HIDE-REPLY]</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('GROUP-HIDE','')" style="white-space:nowrap" title="[GROUP-HIDE]Hide the Content from Guests, or other Roles if defined.[/GROUP-HIDE]">[GROUP-HIDE]Hide the Content from Guests, or other Roles if defined.[/GROUP-HIDE]</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('GOOGLEWIDGET','')" style="white-space:nowrap" title="[GOOGLEWIDGET]&lt;script src=&quot;url&quot;&gt;&lt;/script&gt;[/GOOGLEWIDGET]">[GOOGLEWIDGET]&lt;script src=&quot;url&quot;&gt;&lt;/script&gt;[/GOOGLEWIDGET]</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('DAILYMOTION','')" style="white-space:nowrap" title="[dailymotion]Enter Dailymotion Url (http://www.dailymotion.com/video/xxxx)[/dailymotion]">[dailymotion]Enter Dailymotion Url (http://www.dailymotion.com/video/xxxx)[/dailymotion]</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('HIDE-POSTS','')" style="white-space:nowrap" title="[HIDE-POSTS=x]The tag hides content from people who have below then X posts.[/HIDE-POSTS]">[HIDE-POSTS=x]The tag hides content from people who have below then X posts.[/HIDE-POSTS]</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('GOOGLEMAPS','')" style="white-space:nowrap" title="[GOOGLEMAPS]Enter Google Maps Url[/GOOGLEMAPS]">[GOOGLEMAPS]Enter Google Maps Url[/GOOGLEMAPS]</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('ALBUMIMG','')" style="white-space:nowrap" title="[ALBUMIMG]Enter a Album Image Number[/ALBUMIMG]">[ALBUMIMG]Enter a Album Image Number[/ALBUMIMG]</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('ATTACH','')" style="white-space:nowrap" title="[ATTACH]Enter a Attachment ID[/ATTACH]">[ATTACH]Enter a Attachment ID[/ATTACH]</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('SPOILER','')" style="white-space:nowrap" title="[SPOILER]Put Spoiler Text in Here[/SPOILER]">[SPOILER]Put Spoiler Text in Here[/SPOILER]</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('HIDE','')" style="white-space:nowrap" title="[HIDE]This tag hides content from people until they press the thank you button for the post.[/HIDE]">[HIDE]This tag hides content from people until they press the thank you button for the post.[/HIDE]</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('USERLINK','')" style="white-space:nowrap" title="[USERLINK]Put User Name Here[/USERLINK]">[USERLINK]Put User Name Here[/USERLINK]</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('TWITTER','')" style="white-space:nowrap" title="[TWITTER]Enter the Status ID of the Tweet you want to embed[/TWITTER]">[TWITTER]Enter the Status ID of the Tweet you want to embed[/TWITTER]</li></ul></div>
+<div class="yafpopupmenu" id="forum_ctl03_ctl12" style="position:absolute;z-index:100;left:0;top:0;display:none;"><ul><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('codelang','markup')" style="white-space:nowrap" title="Plain Text">Plain Text</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('codelang','markup')" style="white-space:nowrap" title="HTML">HTML</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('codelang','css')" style="white-space:nowrap" title="CSS">CSS</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('codelang','java')" style="white-space:nowrap" title="Java">Java</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('codelang','javascript')" style="white-space:nowrap" title="JavaScript">JavaScript</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('codelang','c')" style="white-space:nowrap" title="C">C</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('codelang','cpp')" style="white-space:nowrap" title="C++">C++</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('codelang','csharp')" style="white-space:nowrap" title="C#">C#</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('codelang','git')" style="white-space:nowrap" title="Git">Git</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('codelang','python')" style="white-space:nowrap" title="Python">Python</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('codelang','sql')" style="white-space:nowrap" title="SQL">SQL</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('codelang','markup')" style="white-space:nowrap" title="XML">XML</li><li class="popupitem" onmouseover="mouseHover(this,true)" onmouseout="mouseHover(this,false)" onclick="setStyle('codelang','vb')" style="white-space:nowrap" title="Visual Basic">Visual Basic</li></ul></div>
+<div class="yafpopupmenu yafalbumlistmenu" id="forum_ctl03_ctl13" style="position:absolute;z-index:100;left:0;top:0;display:none;"><div id="AlbumsListBox" class="content"><div id="AlbumsListPager"></div><br style="clear:both;" /><div id="AlbumsPagerResult"><p style="text-align:center"><span>Đang tải...</span><br /><img title="Đang tải..." src="/Content/images/loader.gif" alt="Đang tải..." /></p></div><div id="AlbumsPagerHidden" style="display:none;"><div class="result"><ul class="AlbumImageList"></ul></div></ul></div></div></div>
+</td>
+
+    </tr>
+    <tr id="forum_ctl03_PostOptions1_OptionsRow" class="postOptions">
+	<td class="post" colspan="2">
+        <strong>Tùy chọn:</strong>
+        <br />
+        <ul style="list-style-type: none; padding-left: 0px;">
+            
+            
+            
+            <li id="forum_ctl03_PostOptions1_liTopicWatch">
+                <input id="forum_ctl03_PostOptions1_TopicWatch" type="checkbox" name="forum$ctl03$PostOptions1$TopicWatch" />
+                Nhận thông báo của chủ đề qua email?
+            </li>
+        </ul>
+    </td>
+</tr>
+
+
+    
+    
+    
+    
+    <tr>
+        <td class="footer1" colspan="2">
+            <a id="forum_ctl03_Preview" class="yafcssbigbutton leftItem" href="javascript:__doPostBack('forum$ctl03$Preview','')" onclick="this.blur(); this.onclick = function() { return false; }; return true;"><span>Xem trước</span></a>
+            <a id="forum_ctl03_PostReply" class="yafcssbigbutton leftItem" href="javascript:__doPostBack('forum$ctl03$PostReply','')" onclick="this.blur(); this.onclick = function() { return false; }; return true;"><span>gửi</span></a>
+            <a id="forum_ctl03_Cancel" class="yafcssbigbutton leftItem" href="javascript:__doPostBack('forum$ctl03$Cancel','')" onclick="this.blur(); this.onclick = function() { return false; }; return true;"><span>Cancel</span></a>
+        </td>
+    </tr>
+</table>
+<script type="text/javascript">
+
+    var prm = Sys.WebForms.PageRequestManager.getInstance();
+
+    prm.add_beginRequest(beginRequest);
+
+    function beginRequest() {
+        prm._scrollPosition = null;
+    }
+
+</script>
+
+<div id="DivSmartScroller">
+    <input name="forum$ctl03$scrollLeft" type="hidden" id="forum_ctl03_scrollLeft" /><input name="forum$ctl03$scrollTop" type="hidden" id="forum_ctl03_scrollTop" />
+</div>
+
+<br /><div class="content" style="text-align:right;font-size:7pt"><a target="_top" title="View Full Site" href="/?fullsite=true">View Full Site</a> | <span id="themecredit" style="color:#999999">Yaf Mobile Theme</span><br /><a target="_top" title="YetAnotherForum.NET" href="http://www.yetanotherforum.net">Powered by  YAF.NET 2.2.2 </a> | <a target="_top" title="YetAnotherForum.NET" href="http://www.yetanotherforum.net">YAF.NET &copy; 2003-2016, Yet Another Forum.NET</a><br />Thời gian xử lý trang này hết 0.039 giây.</div></div></div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+if(typeof(CKEDITOR)=='undefined'){function loadTimeAgo(){jQuery.timeago.settings.refreshMillis=60000;jQuery('abbr.timeago').timeago();Prism.highlightAll();}
+Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(loadTimeAgo);};//]]>
+</script>
+</form>
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75243294-2', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+    <script>
+        $(document).ready(function () {
+            var _sct = 0;
+            if (window.outerWidth < 800) {
+                //Scroll fix Menu
+                $(function () {
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() < _sct) {
+                            $('.menu-mobile').fadeIn(500);
+                        } else {
+                            $('.menu-mobile').fadeOut(500);
+                        }
+                        _sct = $(this).scrollTop();
+                    });
+                });
+
+                $(".ShoutBoxPanel input[type='image']").attr('src', '/themes/Yafmobile/icon-chat.png');
+                $("#forum_ctl03_ActiveDiscussions_UpdateStatsPanel input[type='image']").attr('src', '/themes/Yafmobile/icon-chude.png');
+                $(".forumStatisticsContent input[type='image']").attr('src', '/themes/Yafmobile/icon-thongtin.png');
+
+                $(".ShoutBoxPanel input[type='image']").addClass('icon-chat');
+                $("#forum_ctl03_ActiveDiscussions_UpdateStatsPanel input[type='image']").addClass('icon-chat');
+                $(".forumStatisticsContent input[type='image']").addClass('icon-chat');
+
+                $("#forum_ctl03_MessageList_ctl00_DisplayPost1_panMessage").append("<a id='click-viewmore' class='read-more'>Xem tiếp...</a>");
+                $("#click-viewmore").click(function () {
+                    if ($(this).hasClass("read-more")) {
+                        $("#forum_ctl03_MessageList_ctl00_DisplayPost1_panMessage").addClass("show-content");
+                        $("#click-viewmore").removeClass("read-more");
+                        $("#click-viewmore").addClass("collapse");
+                        $("#click-viewmore").text("Thu gọn...");
+                    } else {
+                        $("#forum_ctl03_MessageList_ctl00_DisplayPost1_panMessage").removeClass("show-content");
+                        $("#click-viewmore").removeClass("collapse");
+                        $("#click-viewmore").addClass("read-more");
+                        $("#click-viewmore").text("Xem tiếp...");
+                    }
+                });
+
+                //Lên top khi vào xem post
+                $('body,html').animate({ scrollTop: 0 }, 400);
+            }
+        });
+    </script>
+</body>
+</html>
